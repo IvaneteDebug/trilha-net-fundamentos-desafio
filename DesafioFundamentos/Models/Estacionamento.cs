@@ -47,7 +47,7 @@ namespace DesafioFundamentos.Models
                     Console.WriteLine($"Valor total a ser pago pelo estacionamento: R$ {valorTotal}");
                     // TODO: Remover a placa digitada da lista de veículos
                     // *IMPLEMENTE AQUI*
-                    veiculos.Remove(placa.ToUpper());
+                    veiculos.Remove(placa);
                     Console.WriteLine($"Veículo com placa: {placa} removido com sucesso!");
                 }
                 else
